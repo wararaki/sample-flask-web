@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: sample-flask-web:1.0
+    ports:
+      - "5555:5555"
